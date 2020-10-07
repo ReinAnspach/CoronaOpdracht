@@ -5,6 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
+<<<<<<< HEAD
     <artifactId>CoronaApp</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
@@ -27,6 +28,10 @@
             </plugin>
         </plugins>
     </build>
+=======
+    <artifactId>CoronaOpdracht</artifactId>
+    <version>1.0-SNAPSHOT</version>
+>>>>>>> 1be9eb401eeea6a2b112ed5e9a8771679b0f005f
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
