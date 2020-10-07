@@ -1,3 +1,5 @@
+//Relaten aan locatie, tafel, reservering
+
 public class Locatie {
     private String naamLocatie;
     private int aantalTafels;

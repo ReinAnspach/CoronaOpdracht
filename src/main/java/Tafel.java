@@ -1,3 +1,4 @@
+//Relateren aan reservering, locatie
 public class Tafel {
     int tafelNummer;
 

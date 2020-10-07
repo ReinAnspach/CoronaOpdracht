@@ -1,3 +1,6 @@
+//Arraylist maken
+//Relaten aan reservering, tafel
+
 public class Persoon {
     int ID;
     String naamPersoon;
