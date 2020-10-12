@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2712348-44d3-4ce3-8b4b-aedd83c578ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ReserveringsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Planning" beforeDir="false" afterPath="$PROJECT_DIR$/src/Planning" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Locatie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locatie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Persoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Persoon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Reservering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Reservering.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Tafel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tafel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ReserveringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReserveringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LocatieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LocatieTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReserveringTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +41,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LocatieTest.testAantalGastenBar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CoronaApp" />
       <option name="PACKAGE_NAME" value="" />
@@ -80,7 +70,11 @@
       <option name="presentableId" value="Default" />
       <updated>1602063618164</updated>
       <workItem from="1602063619422" duration="1182000" />
-      <workItem from="1602076104257" duration="450000" />
+      <workItem from="1602076104257" duration="556000" />
+      <workItem from="1602489153662" duration="1377000" />
+      <workItem from="1602490585971" duration="105000" />
+      <workItem from="1602490729471" duration="715000" />
+      <workItem from="1602491650107" duration="2044000" />
     </task>
     <servers />
   </component>
@@ -88,6 +82,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="426" y="107" key="#Inspections" timestamp="1602490260083">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="426" y="107" key="#Inspections/0.0.1600.860@0.0.1600.860" timestamp="1602490260083" />
     <state x="280" y="3" key="#Project_Structure" timestamp="1602071448491">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -128,5 +126,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1556" height="270" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1602071688701" />
+    <state x="280" y="3" key="SettingsEditor" timestamp="1602494583478">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="280" y="3" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1602494583478" />
   </component>
 </project>

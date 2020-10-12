@@ -13,3 +13,7 @@ Dinsdag; scanner voor reservering maken, datetime linken
 Donderdag; opvragen reservering; locatie, tafel, starttijd, eindtijd, personen (arraylists?)
 Vrijdag; exceptions maken voor dubbele tijden en teveel gasten
 
+Maandag: scanner maken, datetime linken, uitvoer console
+Dinsdag: opvragen reservering
+
+
