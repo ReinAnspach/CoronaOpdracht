@@ -4,13 +4,13 @@
 
 public class Reservering {
     int reserveringsNummer;
-    double starttijd;
-    double eindtijd;
+    double tijdsSlot;
 
-    public Reservering(int reserveringsNummer, double starttijd, double eindtijd){
+
+    public Reservering(int reserveringsNummer, double tijdsSlot){
         this.reserveringsNummer = reserveringsNummer;
-        this.starttijd = starttijd;
-        this.eindtijd = eindtijd;
+        this.tijdsSlot = tijdsSlot;
+
     }
 
 
