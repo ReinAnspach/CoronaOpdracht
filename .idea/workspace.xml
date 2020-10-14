@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2712348-44d3-4ce3-8b4b-aedd83c578ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Reservering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Reservering.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ReserveringsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReserveringsManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +93,7 @@
       <workItem from="1602490585971" duration="105000" />
       <workItem from="1602490729471" duration="715000" />
       <workItem from="1602491650107" duration="8176000" />
-      <workItem from="1602501185307" duration="1248000" />
+      <workItem from="1602501185307" duration="3758000" />
     </task>
     <servers />
   </component>
@@ -120,6 +117,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="501" y="130" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1602502392244" />
+    <state x="580" y="183" key="FileChooserDialogImpl" timestamp="1602662492917">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="183" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1602662492917" />
     <state width="1556" height="217" key="GridCell.Tab.0.bottom" timestamp="1602502407745">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -156,5 +157,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="3" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1602501351162" />
+    <state x="391" y="89" key="new project wizard" timestamp="1602662584796">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="391" y="89" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1602662584796" />
   </component>
 </project>
