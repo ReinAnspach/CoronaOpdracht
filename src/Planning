@@ -1,19 +1,12 @@
-Arraylist voor aanwezige personen
 DateTime voor reserveringen
-bidirectioneel persoon/reservering
-bidirectioneel reservering/datetime (somehow?)
 
 Personen per reservering
-Via console reserveringen invoeren
+X Via console reserveringen invoeren
 
 Exceptions voor dubbele reservering; geef alternatieven
+Hulpmethodes reservering maken
+reserverings array maken
+methodes reserverings ophalen via id, naam, tafel, tijdsslot, locatie
 
-Maandag; bidirectionele relaties bouwen, testjes maken opvragen reservering
-Dinsdag; scanner voor reservering maken, datetime linken
-Donderdag; opvragen reservering; locatie, tafel, starttijd, eindtijd, personen (arraylists?)
-Vrijdag; exceptions maken voor dubbele tijden en teveel gasten
-
-Maandag: scanner maken, datetime linken, uitvoer console
-Dinsdag: opvragen reservering
 
 

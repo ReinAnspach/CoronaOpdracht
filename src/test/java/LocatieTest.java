@@ -9,7 +9,7 @@ Locatie terras = new Locatie("Terras", 20);
 
 
 
-@Test
+/*@Test
     void testAantalGastenBar(){
 
     Locatie bar = new Locatie("Bar", 2);
@@ -23,7 +23,7 @@ Locatie terras = new Locatie("Terras", 20);
         System.out.println("Kom binnen.");
     }
 
-}
+}*/
 
 
 

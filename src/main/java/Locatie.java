@@ -3,6 +3,8 @@ public class Locatie {
     private int aantalTafels;
     private static int MAX_AANTAL_PERSONEN = 30;
     private static int MAX_GASTEN_PER_TAFEL = 4;
+    private static int OPENINGSTIJD_LOCATIE = 12;
+    private static int SLUITINGSTIJD_LOCATIE = 22;
 
     public Locatie(String naamLocatie, int aantalTafels){
         this.naamLocatie = naamLocatie;
@@ -25,11 +27,4 @@ public class Locatie {
         return aantalTafels;
     }
 
-    public static void setMaxAantalPersonen(int maxAantalPersonen) {
-        Locatie.MAX_AANTAL_PERSONEN = maxAantalPersonen;
-    }
-
-    public static int getMaxAantalPersonen() {
-        return MAX_AANTAL_PERSONEN;
-    }
 }
