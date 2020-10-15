@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2712348-44d3-4ce3-8b4b-aedd83c578ef" name="Default Changelist" comment="" />
+    <list default="true" id="d2712348-44d3-4ce3-8b4b-aedd83c578ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Reservering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Reservering.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/reserveringsInvoerder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/reserveringsInvoerder.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,14 +39,16 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.reserveringsInvoerder.inputVoorEenReservering">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.reserveringsInvoerder">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -53,6 +59,15 @@
       <option name="MAIN_CLASS_NAME" value="LocatieTest" />
       <option name="METHOD_NAME" value="testAantalGastenBar" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reserveringsInvoerder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CoronaApp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="reserveringsInvoerder" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -69,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.reserveringsInvoerder" />
         <item itemvalue="JUnit.reserveringsInvoerder.inputVoorEenReservering" />
         <item itemvalue="JUnit.LocatieTest.testAantalGastenBar" />
       </list>
@@ -89,7 +105,8 @@
       <workItem from="1602490729471" duration="715000" />
       <workItem from="1602491650107" duration="8176000" />
       <workItem from="1602501185307" duration="9018000" />
-      <workItem from="1602750168970" duration="663000" />
+      <workItem from="1602750168970" duration="981000" />
+      <workItem from="1602761622789" duration="6096000" />
     </task>
     <servers />
   </component>
@@ -109,10 +126,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="561" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1602071471016" />
-    <state x="501" y="130" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602502392244">
+    <state x="42" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602765753164">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="501" y="130" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1602502392244" />
+    <state x="42" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1602765753164" />
     <state x="530" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602668923640">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -121,22 +138,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="183" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1602662492917" />
-    <state width="1556" height="243" key="GridCell.Tab.0.bottom" timestamp="1602751047422">
+    <state width="1556" height="239" key="GridCell.Tab.0.bottom" timestamp="1602769370310">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="243" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1602751047422" />
-    <state width="1556" height="243" key="GridCell.Tab.0.center" timestamp="1602751047421">
+    <state width="1556" height="239" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1602769370310" />
+    <state width="1556" height="239" key="GridCell.Tab.0.center" timestamp="1602769370309">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="243" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1602751047421" />
-    <state width="1556" height="243" key="GridCell.Tab.0.left" timestamp="1602751047421">
+    <state width="1556" height="239" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1602769370309" />
+    <state width="1556" height="239" key="GridCell.Tab.0.left" timestamp="1602769370309">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="243" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1602751047421" />
-    <state width="1556" height="243" key="GridCell.Tab.0.right" timestamp="1602751047422">
+    <state width="1556" height="239" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1602769370309" />
+    <state width="1556" height="239" key="GridCell.Tab.0.right" timestamp="1602769370309">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="243" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1602751047422" />
+    <state width="1556" height="239" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1602769370309" />
     <state width="1556" height="270" key="GridCell.Tab.1.bottom" timestamp="1602674066725">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -161,5 +178,26 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="391" y="89" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1602662584796" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/reserveringsInvoerder.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/reserveringsInvoerder.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/reserveringsInvoerder.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

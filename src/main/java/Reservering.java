@@ -2,34 +2,46 @@
 //Scanner voor invoer vanuit console
 //Relaten aan persoon, tafel, locatie
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Reservering {
     int reserveringsNummer;
     int tijdsSlot;
-    String naam;
+    String opNaamVan;
     int aantalPersonen;
     Tafel tafel;
+    int nextTafelNr = 1;
+    int nextResNr = 1;
     private List<Reservering> reserveringList;
 
 
-    public Reservering(int reserveringsNummer, int tijdsSlot, String naam, int aantalPersonen, Tafel tafel){
-        setReserveringsNummer(this.reserveringsNummer);;
-        setTijdsslot(tijdsSlot);
-        setNaam(naam);
+    public Reservering(LocalDate reserveringsDag, String gekozenLocatie,String gekozenMaaltijd, int gekozenTijdsslot){
+        setReserveringsNummer(this.reserveringsNummer);
+        setTijdsslot(gekozenTijdsslot);
+        setOpNaamVan(opNaamVan);
         setAantalPersonen(aantalPersonen);
-        setTafel(tafel);
         this.reserveringList = new ArrayList<>();
 
 
+    }
+
+    Reservering reserveringsTracker(LocalDate reserveringsDag, String gekozenLocatie, String gekozenMaaltijd, int gekozenTijdsslot) {
+        String reseveringsNummer = "Reserveringsnummer: " + nextResNr;
+        int tafelNummer = nextTafelNr;
+        Reservering reservering = new Reservering(reserveringsDag, gekozenLocatie, gekozenMaaltijd, gekozenTijdsslot);
+        nextResNr++;
+        nextTafelNr++;
+        reservering.add(reservering);
+        return reservering;
     }
 
     public void add(Reservering reservering) {
         this.reserveringList.add(reservering);
     }
 
-    public Reservering reserveren(int reserveringsNummer, int tijdsSlot, String naam, int aantalPersonen, Tafel tafel) {
+    //public Reservering reserveren(int nextResNr, int tijdsSlot, String naam, int aantalPersonen, Tafel tafel) {
 
 
 
@@ -37,11 +49,11 @@ public class Reservering {
 
        // if(beschikbareTafels.size() > 0){
             //Tafel tafel = beschikbareTafels.get(0);
-            Reservering reservering = new Reservering(reserveringsNummer, tijdsSlot, naam, aantalPersonen, tafel);
-            reservering.setTafel(tafel);
-            reservering.add(reservering);
-            return reservering;
-        }
+            //Reservering reservering = new Reservering(nextResNr, tijdsSlot, naam, aantalPersonen, tafel);
+            //reservering.setTafel(tafel);
+            //reservering.add(reservering);
+            //return reservering;
+        //}
         //throw new ReserveringCreatieException(String.format("Geen geschikte tafel gevonden voor %d personen op %s om %d",aantalPersonen,datumTijd.getDayOfWeek(),datumTijd.getHour()));
 
     //}
@@ -61,11 +73,11 @@ public class Reservering {
         return tijdsSlot;
     }
 
-    private void setNaam(String naam) {
+    private void setOpNaamVan(String opNaamVan) {
     }
 
-    private String getNaam(){
-        return naam;
+    private String getOpNaamVan(){
+        return opNaamVan;
     }
 
     private void setAantalPersonen(int aantalPersonen) {
