@@ -16,15 +16,16 @@ public class reserveringsInvoerder {
     void inputVoorEenReservering() {
         System.out.println("Welkom. Bij welke locatie wilt u reserveren? De opties zijn Restaurant of Cafe.");
         String gekozenLocatie = reserveringsMaker.nextLine();
-        if (!(gekozenLocatie.equalsIgnoreCase("restaurant") || gekozenLocatie.equalsIgnoreCase("cafe"))){
+        if (!(gekozenLocatie.equalsIgnoreCase("restaurant") || gekozenLocatie.equalsIgnoreCase("cafe"))) {
             System.err.println("Dat is geen bestaande locatie. Probeer het nog eens.");
         } else {
             System.out.println("U heeft gekozen voor de locatie: " + gekozenLocatie);
-            //System.out.println("Voor hoeveel personen wilt u reserveren?");
-            //int aantalPersonen = reserveringsMaker.nextInt();
-            //if (!(aantalPersonen == 1 || aantalPersonen == 2 || aantalPersonen == 3 || aantalPersonen == 4)) {
-                //System.err.println("Dat is niet een geldig aantal personen. Kies 1 tot 4.");
-            //} else {
+            System.out.println("Voor hoeveel personen wilt u reserveren?");
+            int aantalPersonen = reserveringsMaker.nextInt();
+            if (!(aantalPersonen == 1 || aantalPersonen == 2 || aantalPersonen == 3 || aantalPersonen == 4)) {
+                System.err.println("Dat is niet een geldig aantal personen. Kies 1 tot 4.");
+            } else {
+                reserveringsMaker.nextLine();
                 //System.out.println("U kunt reserveren voor vandaag of morgen. Wilt u voor vandaag of morgen reserveren?");
                 //String reserveringsDag = reserveringsMaker.nextLine();
                 System.out.println("Wilt u voor lunch of voor diner reserveren?");
@@ -46,10 +47,10 @@ public class reserveringsInvoerder {
             }
         }
 
-       // return reserveringsTracker(vandaag, gekozenLocatie, gekozenMaaltijd, gekozenTijdsslot);
+        // return reserveringsTracker(vandaag, gekozenLocatie, gekozenMaaltijd, gekozenTijdsslot);
 
     }
-
+}
      /*Reservering reserveringsTracker(LocalDate vandaag, String gekozenLocatie, String gekozenMaaltijd, int gekozenTijdsslot){
         String reseveringsNummer = "Reservering " + nextResNr;
         int tafelNummer = nextTafelNr;
